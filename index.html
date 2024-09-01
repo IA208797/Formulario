@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="../dashboard/stylesheets/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../dashboard/stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+
+    <script src="../dashboard/javascripts/modernizr.js" type="text/javascript"></script>
+
+
+    <link href="../dashboard/images/favicon.png" rel="icon" type="image/png" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <div class="large-6 columns">
+
+                <h2>Formulario</h2>
+                <form action="guardar.php" method="post">
+                    <label for="nombre">Nombre</label> <br>
+                    <input type="text" name="nombre" id="nombre" maxlegth="30" required> <br>
+
+                    <label for="apellidos">Apellidos</label> <br>
+                    <input type="text" name="apellidos" id="apellidos" maxlegth="60" required> <br>
+
+                    <label for="calle">Calle</label> <br>
+                    <input type="text" name="calle" id="calle" maxlegth="60" required> <br>
+
+                    <button type="submit">Enviar registro</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
